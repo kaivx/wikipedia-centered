@@ -6,9 +6,10 @@ Redesign that allows a better visualisation of Wikipedia's webpage on wider scre
 
 This theme is primarily focused on the English version of Wikipedia (en.wikipedia.org), although it may work on other regions, I do not guarantee and it may as well not be necessary.
 
-Webpage before:
+**Before:**
 ![Before](https://i.imgur.com/QQludJ4.png)
 
+**After:**
 ![After](https://i.imgur.com/smbp0yZ.png)
 
 
