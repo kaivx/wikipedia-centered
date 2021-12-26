@@ -1,0 +1,41 @@
+/* ==UserStyle==
+@name           WIKIPEDIA theme for ULTRAWIDE displays - fixed width!
+@namespace      https://github.com/hakuryou/wikipedia-centered
+@author         hakuryuu-
+@description    `Redesign that allows better visualisation of Wikipedia's webpage on wider screens.`
+@version        20211216.0.1
+@license        CC0-1.0
+@preprocessor stylus
+==/UserStyle== */
+@-moz-document domain("wikipedia.org") {
+#content,
+#footer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 1620px) {
+    #content {
+        max-width: 1200px;
+        margin-left: 11em;
+    }
+}
+
+@media only screen and (min-width: 1459px) {
+    #mw-head {
+        left: 0;
+        max-width: 1440px;
+        margin: 0 auto;
+        border-right: 160px solid transparent;
+    }
+    #mw-head-base {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 1616px) {
+    #mw-head {
+        border: none !important;
+    }
+}
+}
